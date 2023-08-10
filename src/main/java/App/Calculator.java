@@ -6,6 +6,7 @@ public class Calculator {
 	public Calculator(CalculatorService service)
 	{
 		this.service=service;
+		
 	}
 	
 	public int getPercentage(int a, int b)
@@ -18,6 +19,7 @@ public class Calculator {
 		for(int i=0; i<num.length; i++)
 		{
 			sum+= num[i];
+			sum --;
 			
 		}
 		return sum;

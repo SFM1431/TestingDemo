@@ -20,6 +20,9 @@ public class Book {
 	public void setCategory(String category) {
 		this.category = category;
 	}
+	public void equals(String category) {
+		this.category = category;
+	}
 	@Override
 	public String toString() {
 		return "Book [title=" + title + ", category=" + category + "]";
